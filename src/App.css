@@ -1,0 +1,78 @@
+#alphabet-machine{
+  width: 100%;
+	height: 100%;
+  display: flex;
+	flex-direction:column;
+	color: rgb(24, 26, 22);
+	background-color: gainsboro;
+	text-align: center;
+}
+.drum {
+  margin: 60px auto;
+  border: 0.3rem solid black;
+  border-radius: 10%;
+}
+.control {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 0;
+  width: inherit;
+}
+.display {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 0.42rem solid black;
+  border-radius: 20%;
+  
+  }
+  .volume {
+    
+    font-family: 'Roboto' , sans-serif;
+  }
+  
+  .volume{
+    margin: auto 5px;    
+    }
+  .slider {
+    
+    font-size: smaller;
+    border-radius: 5px;
+    background: black;
+    outline: none;
+    opacity: 0.9;
+    
+    }
+  .slider:focus{
+      outline: none;
+      background: black;
+    }
+  .slider:hover {
+      opacity: 1;
+      cursor: grabbing;
+    }
+    .buttonLetter{
+      border-radius: 50%;
+      margin-left: 5px;
+      width: 50px;
+      font-size: 20px;
+    }
+    .red {color: red}
+    .green {color: green}
+.btnltr{
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 15px;
+  width: 40px; 
+  font-size: 20px;
+  flex-wrap: nowrap;
+}
+.voyelle{
+  font-size: 70px;
+}
