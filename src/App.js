@@ -50,7 +50,7 @@ const App = () => {
   };
 
   return (
-    <div id="alphabet-machine" className='container-fluid'>
+    <div id="alphabet-machine" >
       <div className="drum">
         {setKeyVolume()}
         <h1 className="drum__title"> الحروف الأبجدية العربية </h1>
